@@ -1,0 +1,59 @@
+databaseChangeLog:
+
+  - changeSet:
+      id: 1
+      author: me
+      changes:
+        - createTable:
+            tableName: accounts
+            columns:
+              - column:
+                  name: username
+                  type: varchar(100)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: full_name
+                  type: varchar(300)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: account_amount
+                  type: decimal(13,3)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: used_amount
+                  type: decimal(13,3)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: bank_info
+                  type: varchar(300)
+
+              - column:
+                  name: created_at
+                  type: datetime
+              - column:
+                  name: created_by
+                  type: varchar(200)
+              - column:
+                  name: updated_at
+                  type: datetime
+              - column:
+                  name: updated_by
+                  type: varchar(200)
+
+               - column:
+                  name: created_at
+                  type: datetime
+              - column:
+                  name: created_by
+                  type: varchar(200)
+              - column:
+                  name: updated_at
+                  type: datetime
+              - column:
+                  name: updated_by
+                  type: varchar(200)
+
