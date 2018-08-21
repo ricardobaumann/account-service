@@ -1,7 +1,5 @@
 package com.github.ricardobaumann.accountservice.models;
 
-import org.springframework.data.domain.AuditorAware;
-
 import java.math.BigDecimal;
 
 import javax.persistence.Entity;

@@ -44,16 +44,3 @@ databaseChangeLog:
                   name: updated_by
                   type: varchar(200)
 
-               - column:
-                  name: created_at
-                  type: datetime
-              - column:
-                  name: created_by
-                  type: varchar(200)
-              - column:
-                  name: updated_at
-                  type: datetime
-              - column:
-                  name: updated_by
-                  type: varchar(200)
-

@@ -10,3 +10,5 @@ security:
         scope: read,write
         auto-approve-scopes: '.*'
         tokenInfoUri: http://localhost:9000/oauth/token
+server:
+  port: 8090
